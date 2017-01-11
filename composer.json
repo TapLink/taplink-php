@@ -1,0 +1,29 @@
+{
+    "name": "taplink/taplink-php",
+    "description": "PHP Bindings for Blind Hashing",
+    "keywords": ["blind", "hash", "hashing", "taplink", "salt"],
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7",
+        "phpunit/php-code-coverage": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "TapLink\\TapLink\\": "src/TapLink/TapLink"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jeremy Spilman",
+            "email": "hello@taplink.co"
+        },
+        {
+            "name": "Brad Berger",
+            "email": "brad@bradb.net"
+        }
+    ]
+}

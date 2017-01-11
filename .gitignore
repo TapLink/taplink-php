@@ -1,0 +1,4 @@
+.fsw.yml
+vendor/
+coverage/
+coverage.xml
