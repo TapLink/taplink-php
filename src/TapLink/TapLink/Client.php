@@ -2,9 +2,6 @@
 
 namespace TapLink\TapLink;
 
-use \GuzzleHttp\Client as HTTPClient;
-use \GuzzleHttp\TransferStats;
-
 class Client
 {
     public $appID;

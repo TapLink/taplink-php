@@ -18,16 +18,16 @@ class ResponseTest extends TestCase
 
         $resp = new Response([
             'err' => 'err',
-            // 'hash2Hex' => 'hash2Hex',
+            'hash2Hex' => 'hash2Hex',
             'vid' => 'versionId',
-            // 'newHash2Hex' => 'newHash2Hex',
+            'newHash2Hex' => 'newHash2Hex',
             'new_vid' => 'newVersionId',
             's2' => 'salt2Hex',
         ]);
         $this->assertEquals('err', $resp->err);
-        // $this->assertEquals('hash2Hex', $resp->hash2Hex);
+        $this->assertEquals('hash2Hex', $resp->hash2Hex);
         $this->assertEquals('versionId', $resp->versionId);
-        // $this->assertEquals('newHash2Hex', $resp->newHash2Hex);
+        $this->assertEquals('newHash2Hex', $resp->newHash2Hex);
         $this->assertEquals('newVersionId', $resp->newVersionId);
         $this->assertEquals('salt2Hex', $resp->salt2Hex);
     }
